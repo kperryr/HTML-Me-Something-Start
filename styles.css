@@ -6,8 +6,83 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
 
 }
+header{
+    background-image: url("./pics/header2.jpg");
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: repeat-x;
+    top: 0;
+}
+h1{
+    margin: 0px;
+}
+
+.contitle{
+    position: relative;
+    height:240px;
+    top:0px;
+
+}
+
+.imgh1{
+    position:absolute;
+    height: 55%;
+    width: 30%;
+    top:30px;
+    left:300px;
+
+
+}
+
+.hd1{
+    position:absolute;
+    top:85px;
+    left:350px;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #f3c7f8;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    right: 0;
+    bottom: 5;
+    min-width: 800px;
+    text-align: left;
+    height: 40px;
+    padding: 10px 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    position: relative;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  main{
+    padding: 60px 10px 10px 10px; 
+  }
 .container1 {
     position: relative;
     height: 325px;
@@ -102,44 +177,3 @@ body {
 }
 
 
- /*  .container2 {
-    position: relative;
-    height:150px;
-    top:200px;
-   
-}
-.image1R {
-    position: relative;
-    width:17%;
-    height: 80%;
-    top: 0;
-    right: 25px;
-    
-    z-index: 2;
-  }
-  .image2R {
-    position: absolute;
-    height: 190%;
-    width: auto;
-    top: 50px;
-    right: 250px;
-  
-    z-index: 1;
-  }
-
-  .hd3R {
-    position: relative;
-    left:115px;
-    top:-100px;
-    z-index: 3;
-
-  }
-
-  .p1R{
-    position: relative;
-    width: 350px;
-    height:auto;
-    top:-80px;
-    left:800px;
-    z-index: 4;
-  } */
