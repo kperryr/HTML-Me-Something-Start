@@ -1,1 +1,145 @@
 /* Write your CSS here! */
+body {
+    background-image: url("./pics/background.jpg");
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
+.container1 {
+    position: relative;
+    height: 325px;
+
+   
+}
+   
+.image1L {
+    position: relative;
+    width:17%;
+    height: 80%;
+    top: 0;
+    left: 25px;
+    
+    z-index: 2;
+  }
+  .image2L {
+    position: absolute;
+    height: 80%;
+    width: auto;
+    top: 20px;
+    left: 250px;
+  
+    z-index: 1;
+  }
+
+  .hd3L {
+    position: absolute;
+    left:115px;
+    top:10px;
+    z-index: 3;
+
+  }
+
+  .p1L{
+    position: absolute;
+    width: 350px;
+    height:auto;
+    top:50px;
+    left:290px;
+    z-index: 4;
+  }
+
+  .container2 {
+    position: relative;
+    height: 370px;
+
+   
+}
+   
+.image1R {
+    position: relative;
+    width:17%;
+    height: 80%;
+    top: 220px;
+    left: 1200px;
+    
+    z-index: 2;
+  }
+  .image2R {
+    position: absolute;
+    height: 80%;
+    width: auto;
+    top: 0px;
+    right: 200px;
+  
+    z-index: 1;
+  }
+
+  .hd3R {
+    position: absolute;
+    right:115px;
+    top:230px;
+    z-index: 3;
+
+  }
+
+  .p1R{
+    position: absolute;
+    width: 410px;
+    height:auto;
+    top:35px;
+    right:240px;
+    z-index: 4;
+  }
+
+  .container3 {
+    position: relative;
+    height: 370px;
+
+   
+}
+
+
+ /*  .container2 {
+    position: relative;
+    height:150px;
+    top:200px;
+   
+}
+.image1R {
+    position: relative;
+    width:17%;
+    height: 80%;
+    top: 0;
+    right: 25px;
+    
+    z-index: 2;
+  }
+  .image2R {
+    position: absolute;
+    height: 190%;
+    width: auto;
+    top: 50px;
+    right: 250px;
+  
+    z-index: 1;
+  }
+
+  .hd3R {
+    position: relative;
+    left:115px;
+    top:-100px;
+    z-index: 3;
+
+  }
+
+  .p1R{
+    position: relative;
+    width: 350px;
+    height:auto;
+    top:-80px;
+    left:800px;
+    z-index: 4;
+  } */
