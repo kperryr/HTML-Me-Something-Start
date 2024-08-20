@@ -1,4 +1,23 @@
 /* Write your CSS here! */
+@font-face{
+  font-family: "Yagiza";
+  src:url("./fonts/YAGIZA__.TTF");
+}
+
+@font-face{
+  font-family: "Pixel";
+  src:url("./fonts/slkscr.ttf");
+}
+@font-face{
+  font-family: "Popstar";
+  src:url("./fonts/POPSTAR.TTF");
+}
+@font-face{
+  font-family: "Digi";
+  src:url("./fonts/01DigiGraphics.ttf");
+}
+
+
 body {
     background-image: url("./pics/background.jpg");
   
@@ -21,6 +40,35 @@ header{
 }
 h1{
     margin: 0px;
+    font-family: "Yagiza";
+    font-size:30px;
+    text-align: center;
+    line-height:33px ;
+}
+.hd1{
+  position:absolute;
+  top:85px;
+  left:330px;
+  width:470px;
+  z-index: 1;
+
+}
+
+h3{
+  font-family: "Pixel";
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  text-align: Center;
+  font-family:"Heartbit";
+}
+
+#headerP{
+
+  text-align: Center;
+  font-family:"Digi";
+
 }
 
 .contitle{
@@ -32,18 +80,27 @@ h1{
 
 .imgh1{
     position:absolute;
-    height: 55%;
-    width: 30%;
+    height: 65%;
+    width: 40%;
     top:30px;
-    left:300px;
+    left:270px;
 
 
 }
+.imgh2{
+  position:absolute;
+  
+  width: 26%;
+  top:90px;
+  left:810px;
+}
 
-.hd1{
-    position:absolute;
-    top:85px;
-    left:350px;
+.hp1{
+  position:absolute;
+  top:120px;
+  left:840px;
+  width:355px;
+  z-index: 1;
 
 }
 
@@ -56,7 +113,7 @@ h1{
     right: 0;
     bottom: 5;
     min-width: 800px;
-    text-align: left;
+    text-align: center;
     height: 40px;
     padding: 10px 20px;
   }
@@ -64,18 +121,20 @@ h1{
   /* Style the links inside the navigation bar */
   .topnav a {
     position: relative;
-    float: left;
+    top: 10px;
+    float: center;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Popstar";
     font-size: 17px;
     
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #f3c7f8;
     color: black;
   }
 
@@ -111,8 +170,8 @@ h1{
 
   .hd3L {
     position: absolute;
-    left:115px;
-    top:10px;
+    left:60px;
+    top:0px;
     z-index: 3;
 
   }
@@ -154,8 +213,8 @@ h1{
 
   .hd3R {
     position: absolute;
-    right:115px;
-    top:230px;
+    right:90px;
+    top:210px;
     z-index: 3;
 
   }
