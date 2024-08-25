@@ -1,4 +1,4 @@
-/* Write your CSS here! */
+ /* Write your CSS here! */
 @font-face{
   font-family: "Yagiza";
   src:url("./fonts/YAGIZA__.TTF");
@@ -16,6 +16,10 @@
   font-family: "Digi";
   src:url("./fonts/01DigiGraphics.ttf");
 }
+@font-face{
+  font-family: "wavy";
+  src:url("./fonts/Goo.ttf");
+}
 
 
 body {
@@ -26,10 +30,37 @@ body {
     background-size: cover;
     background-position: center center;
     padding:0px;
-    margin:0px;
+    /* margin:8px 8px 8px 8px; */
+    display:block;
+    margin: 0px;
     box-sizing:border-box;
 
 }
+footer{
+  
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  padding: 0px 0px 20px 0px;
+}
+
+.backTop{
+  position: relative;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Popstar";
+  font-size: 14px;
+  color: #6810a3;
+}
+
+
+/* Header Style-------------------------------------------------------- */
 header{
     background-image: url("./pics/header2.jpg");
     height: 250px;
@@ -38,6 +69,7 @@ header{
     background-repeat: repeat-x;
     top: 0;
 }
+
 h1{
     margin: 0px;
     font-family: "Yagiza";
@@ -45,51 +77,44 @@ h1{
     text-align: center;
     line-height:33px ;
 }
+
+/* #mainHeading{
+  color:"red";
+} */
+
+#headerP{
+  font-family:Digi; 
+  text-align:center; 
+  font-size:16px; 
+  word-spacing:3px
+}
+
 .hd1{
   position:absolute;
   top:85px;
   left:330px;
   width:470px;
   z-index: 1;
-
 }
 
-h3{
-  font-family: "Pixel";
-  text-align: center;
-  font-size: 30px;
-}
-p{
-  text-align: Center;
-  font-family:"Heartbit";
-}
-
-#headerP{
-
-  text-align: Center;
-  font-family:"Digi";
-
-}
-
-.contitle{
-    position: relative;
-    height:240px;
-    top:0px;
-
+.conHeader{
+  position: relative;
+  height:240px;
+  top:0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .imgh1{
-    position:absolute;
-    height: 65%;
-    width: 40%;
-    top:30px;
-    left:270px;
-
-
+  position:absolute;
+  height: 65%;
+  width: 40%;
+  top:30px;
+  left:270px;
 }
+
 .imgh2{
   position:absolute;
-  
   width: 26%;
   top:90px;
   left:810px;
@@ -101,10 +126,10 @@ p{
   left:840px;
   width:355px;
   z-index: 1;
-
 }
 
-/* Add a black background color to the top navigation */
+
+/* Navigation Style-------------------------------------------------------- */
 .topnav {
     background-color: #f3c7f8;
     position: absolute;
@@ -118,7 +143,6 @@ p{
     padding: 10px 20px;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     position: relative;
     top: 10px;
@@ -132,46 +156,105 @@ p{
     
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #f3c7f8;
     color: black;
   }
 
-
+/* Main Style-------------------------------------------------------- */
   main{
-    padding: 60px 10px 10px 10px; 
+    padding: 70px 10px 10px 10px;
+    margin: 0px 0px 0px 0px; 
   }
+
+  h3{
+    font-family: "Pixel";
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p{
+    text-align: Center;
+  }
+
 .container1 {
     position: relative;
     height: 325px;
-
-   
+     margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+} 
+.sideimage1{
+  position: absolute;
+  width: 20%;
+  left: 720px;
+  bottom:75px;
 }
-   
+
+
+.sideimage3{
+  position: absolute;
+  width: 20%;
+  left: 500px;
+  bottom: 105px;
+}
+
+#coco{
+  right: 20px;
+  width: 260px;
+}
+
+#cocotext{
+  font-size: 28px;
+}
+
+#bb{
+  left: 43px;
+}
+.youthens{
+  font-family: "wavy";
+  font-size:x-small;
+  font-style:italic;
+}
+
+#bf{
+  left:70px;
+}
+
+#ss{
+  left:40px;
+  top:10px;
+}
+#sstext{
+  font-size: 25px;
+}
+
+
+
+
+
+
+ /* left side default Style-------------------------------------------------------- */
 .image1L {
     position: relative;
     width:17%;
     height: 80%;
     top: 0;
     left: 25px;
-    
     z-index: 2;
   }
   .image2L {
     position: absolute;
     height: 80%;
     width: auto;
-    top: 20px;
+    top: 30px;
     left: 250px;
-  
     z-index: 1;
   }
 
   .hd3L {
     position: absolute;
-    left:60px;
-    top:0px;
+    left:57px;
+    top:5px;
     z-index: 3;
 
   }
@@ -180,25 +263,18 @@ p{
     position: absolute;
     width: 350px;
     height:auto;
-    top:50px;
+    top:60px;
     left:290px;
     z-index: 4;
   }
-
-  .container2 {
-    position: relative;
-    height: 370px;
-
    
-}
-   
+  /* Right side default Style-------------------------------------------------------- */
 .image1R {
     position: relative;
     width:17%;
     height: 80%;
-    top: 220px;
-    left: 1200px;
-    
+    top: 190px;
+    left: 1220px;
     z-index: 2;
   }
   .image2R {
@@ -207,32 +283,24 @@ p{
     width: auto;
     top: 0px;
     right: 200px;
-  
     z-index: 1;
   }
 
   .hd3R {
     position: absolute;
-    right:90px;
-    top:210px;
+    right:70px;
+    top:195px;
     z-index: 3;
-
   }
 
   .p1R{
     position: absolute;
-    width: 410px;
+    width: 350px;
     height:auto;
-    top:35px;
-    right:240px;
+    top:30px;
+    right:255px;
     z-index: 4;
   }
 
-  .container3 {
-    position: relative;
-    height: 370px;
-
-   
-}
 
 
